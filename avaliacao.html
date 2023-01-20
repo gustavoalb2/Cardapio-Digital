@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="css/style.css"/>
+    <title>Formulario</title>
+</head>
+<body>
+    
+    <form method="get" >
+        <table class="formulario" action="/agradece.html">
+            <tr>
+                <td><h3>Dados pessoais</h3></td>
+            </tr>
+            <tr>
+                <td>Nome:
+                <input type="text" name="nomeCliente" size="30" placeholder="Seu nome">
+            </tr>
+            <tr>
+                <td>Email:
+                <input type="text" name="nomeCliente" size="30" placeholder="Seu email">    
+                </td>
+            </tr>
+            <tr>
+                <td>Celular:
+                <input type="text" name="nomeCliente" size="30" placeholder="Seu numero de telefone">    
+                </td>
+            </tr>
+            <tr>
+                <td><font size="4"><b>Avaliação e comentários</b></font></td>
+            </tr>
+            <tr>
+                <td>Qual a sua opinião sobre a variedade do nosso cardápio?
+                    <input type="radio" name="avaliacao" value="10">Ótimo
+                    <input type="radio" name="avaliacao" value="5">Bom
+                    <input type="radio" name="avaliacao" value="5">Ruim
+                </td>
+            </tr>
+            <tr>
+                <td>O que mais lhe chamou atenção no nosso cardápio?
+                    <select>
+                        <option value="design">Design</option>
+                        <option value="menu-cardapio">Menu</option>                        
+                        <option value="cores">Cores</option> 
+                        <option value="qualidade">Qualidade</option> 
+                        <option value="preco">Preço</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Com que frequência você frequenta o CyberCafé?
+                    <select>
+                        <option value="design">Várias vezes por semana</option>
+                        <option value="menu-cardapio">Diariamente</option>                        
+                        <option value="cores">Uma vez por semana</option> 
+                        <option value="qualidade">Várias vezes por mês</option> 
+                        <option value="preco">Várias vezes por ano</option>
+                        <option value="preco">Uma vez por ano ou menos</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Qual horário você costuma frequentar o CyberCafé??
+                    <input type="checkbox" name="manha" value="5">Manhã
+                    <input type="checkbox" name="tarde" value="5">Tarde
+                    <input type="checkbox" name="noite" value="5">Noite
+                </td>
+            </tr>
+            <tr>
+                <td>Envie sugestões de como podemos melhorar:
+                    <textarea  name="sugestao" size="60" placeholder="Write something..">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="enviar" value="Enviar" onclick="alert('Obrigado por sua avaliação!')">
+                    <input type="reset" name="enviar" value="Limpar">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <div class="container body-content">
+        <footer class="fixarRodape">
+            <p>&copy; Developed by: Gustavo Albuquerque, Uderlanio Vinicios, Ana Heloísa</p>
+        </footer>
+    </div>
+</body>
+</html>
